@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { CmpntNavMenuComponent } from './cmpnt-nav-menu/cmpnt-nav-menu.component';
+import { CmpntNavItemComponent } from './cmpnt-nav-item/cmpnt-nav-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CmpntNavMenuComponent,
+    CmpntNavItemComponent
   ],
   imports: [
     BrowserModule,
