@@ -3,7 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "ng build --prod",
+    "public": "dist",
     "rewrites": [
       {
         "source": "**",
