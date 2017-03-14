@@ -1,10 +1,10 @@
-import { Ex2Page } from './app.po';
+import { Tar2Page } from './app.po';
 
-describe('ex2 App', function() {
-  let page: Ex2Page;
+describe('tar2 App', function() {
+  let page: Tar2Page;
 
   beforeEach(() => {
-    page = new Ex2Page();
+    page = new Tar2Page();
   });
 
   it('should display message saying app works', () => {
