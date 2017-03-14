@@ -9,10 +9,10 @@ export class NavMenuComponent implements OnInit {
 
     buttons =[ 
 
-          {id:"home",txt:"HOME PAGE"},
-          {id:"about",txt:"ABOUT US"},
-          {id:"location",txt:"LOCATION"},
-          {id:"contact",txt:"CONTACT US"}
+          {id:"home"},
+          {id:"about"},
+          {id:"location"},
+          {id:"contact"}
     ]
 
 
