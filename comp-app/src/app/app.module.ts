@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { CmpntNavMenuComponent } from './cmpnt-nav-menu/cmpnt-nav-menu.component';
 import { CmpntNavItemComponent } from './cmpnt-nav-item/cmpnt-nav-item.component';
+import { HaComponent } from './ha/ha.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CmpntNavMenuComponent,
-    CmpntNavItemComponent
+    CmpntNavItemComponent,
+    HaComponent
   ],
   imports: [
     BrowserModule,

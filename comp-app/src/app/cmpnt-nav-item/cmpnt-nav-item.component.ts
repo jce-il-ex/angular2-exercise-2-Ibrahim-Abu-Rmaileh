@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cmpnt-nav-item.component.css']
 })
 export class CmpntNavItemComponent implements OnInit {
-
+  @Input() 
   constructor() { }
 
   ngOnInit() {
